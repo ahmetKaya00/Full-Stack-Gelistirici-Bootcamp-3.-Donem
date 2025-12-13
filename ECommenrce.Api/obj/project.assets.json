@@ -3569,7 +3569,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -3617,6 +3618,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3625,7 +3640,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -3634,7 +3649,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ECommenrce.Api, Microsoft.IdentityModel.Tokens (>= 8.0.4) öğesine bağımlı ancak Microsoft.IdentityModel.Tokens 8.0.4 bulunamadı. Yaklaşık bir en iyi eşleşme olan Microsoft.IdentityModel.Tokens 8.1.0 çözümlendi.",
+      "message": "ECommenrce.Api depends on Microsoft.IdentityModel.Tokens (>= 8.0.4) but Microsoft.IdentityModel.Tokens 8.0.4 was not found. Microsoft.IdentityModel.Tokens 8.1.0 was resolved instead.",
       "libraryId": "Microsoft.IdentityModel.Tokens",
       "targetGraphs": [
         "net8.0"

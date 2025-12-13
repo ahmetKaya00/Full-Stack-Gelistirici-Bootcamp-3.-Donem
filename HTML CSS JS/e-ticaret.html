@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --bg:#fff;
+            --text: #0F1628;
+            --muted: #64738B;
+            --line: #E2E8F0;
+            --brand: #5B60F0;
+
+            --r:18px;
+            --r2:14px;
+            --shadow: 0 14px 40px rgba(2,5,23,0.8)
+            font-family:ui-sans-serif, system-ui, Roboto;
+        }
+        *{box-sizing: border-box;}
+        body{
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+        }
+        .wrap{
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 26px 16px 90px;
+        }
+        .top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 14px;
+            padding: 14px 16px;
+            border: 1px solid var(--line);
+            border-radius: var(--r);
+            box-shadow: var(--shadow);
+        }
+        .brand{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 900;
+        }
+        .logo{
+            width: 38px;
+            height: 38px;
+            border-radius: 14px;
+            background: linear-gradient(135deg,var(--brand),#5323e3);
+        }
+        .search{
+            flex: 1;
+            max-width: 520px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            padding: 10px 12px;
+            color: var(--muted);
+        }
+        .search input{
+            border: 0;
+            outline: none;
+            width: 100%;
+            font-size: 14px;
+        }
+        .crumbs{
+            margin: 14px 6px 0;
+            color: var(--muted);
+            font-size: 13px;
+        }
+        .crumbs b{color: var(--text);}
+        .grid{
+            margin-top: 18px;
+            display: grid;
+            grid-template-columns: 1.15fr .85fr;
+            gap: 18px;
+        }
+        .card{
+            border: 1px solid var(--line);
+            border-radius: var(--r2);
+            box-shadow: var(--shadow);
+            background: var(--bg);
+        }
+        .muted{
+            color: var(--muted);
+            font-size: 14px;
+        }
+        .hr{
+            height: 1px;
+            background: var(--line);
+            margin: 16px 0;
+        }
+        .gallery{
+            display: grid;
+            grid-template-columns: 90px 1fr;
+            gap: 14px;
+            padding: 16px;
+        }
+        .thumbs{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .thumb{
+            width: 90px;
+            height: 72px;
+            border-radius: 14px;
+            overflow: hidden;
+            border: 2px solid transparent; 
+            cursor: pointer;
+            flex: 0 0 auto;
+            background-color: #f1f5f9;
+        }
+        .thumb.active{
+            border-color: var(--brand);
+        }
+        .thumb img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="top">
+            <div class="brand"><div class="logo"></div>Yobodobo Store</div>
+            <div class="search"><input type="text" placeholder="Ürün Ara"></div>
+            <div class="muted" style="font-weight: 900;">Sepet 0</div>
+        </div>
+    </div>
+    <div class="crumbs">Ana Sayfa / Elektronik / Kulaklık / <b> Pulse Pro</b></div>
+
+    <div class="grid">
+        <div class="card">
+            <div class="gallery">
+                <div class="thumbs" id="thumbs">
+                    <div class="thumb active"><img src="./img/1.webp" alt="1"></div>
+                    <div class="thumb"><img src="./img/2.webp" alt="2"></div>
+                    <div class="thumb"><img src="./img/3.webp" alt="3"></div>
+                </div>
+            </div>
+            <div class="main">
+                <span class="badge">Ücretsiz Kargo</span>
+            </div>
+        </div>
+    </div>
+    <div class="card sticky">
+        <h1>Pulse Pro Wireless Kulaklık</h1>
+        <div class="muted">ANC • 40 saat pil • Bluetooth 5.3</div>
+
+        <div class="rating">
+            <div class="starts">★★★★☆</div>
+            <div style="font-weight: 950;">4.6</div>
+            <div class="muted">(128 yorum)</div>
+        </div>
+        <div class="priceRow">
+            <div>
+                <div class="price">₺2.499 <span class="off">%17</span></div>
+                <div class="old">₺2.999</div>
+            </div>
+            <div class="stock"><b id="stock">Stok: 12</b><br>Bugün kargoda</div>
+        </div>
+        <div class="row">
+            <div>
+                <div class="label">Renk</div>
+                <div class="chips" id="colors">
+                    <div class="chip active" data-color="Siyah"> <span class="dot" style="background-color: #101827;"></span>Siyah</div>
+                    <div class="chip active" data-color="Mavi"> <span class="dot" style="background-color: #60A5FA;"></span>Mavi</div>
+                    <div class="chip active" data-color="Mor"> <span class="dot" style="background-color: #A68BFA;"></span>Mor</div>
+                </div>
+            </div>
+            <div class="label">Beden</div>
+            <div class="chips" id="sizes">
+                <div class="chip active" data-size="Standart">Standart</div>
+                <div class="chip" data-size="Large">Large</div>
+            </div>
+        </div>
+    </div>
+    <div class="qyt">
+        <button id="dec">-</button>
+        <input id="qyt" value="1" inputmode="numeric">
+        <button id="inc">+</button>
+    </div>
+    <div class="actions">
+        <button class="btn primary" id="add">Sepete Ekle</button>
+        <button class="btn goast" id="buy">Hemen Al</button>
+    </div>
+
+    <div class="hr"></div>
+    <div class="muted">
+        <b style="color:var(--text)">Kısa açıklama:</b> Temiz ses, güçlü ANC ve konforlu pedler. USB-C ile hızlı şarj.
+    </div>
+    </div>
+    <div class="section card" style="padding: 16px;">
+        <h2>Benzer Ürünler</h2>
+        <div class="similiGrid" id="similar">
+            <div class="pCard">
+                <div class="pImg"><img src="./img/1.webp" alt=""></div>
+                <div class="pBody">
+                    <div class="pTitle">ZenPods</div>
+                    <div class="pMeta">True Wireless • ANC</div>
+                    <div class="pPrice">₺2.199</div>
+                </div>
+            </div>
+            <div class="pCard">
+                <div class="pImg"><img src="./img/1.webp" alt=""></div>
+                <div class="pBody">
+                    <div class="pTitle">ZenPods</div>
+                    <div class="pMeta">True Wireless • ANC</div>
+                    <div class="pPrice">₺2.199</div>
+                </div>
+            </div>
+            <div class="pCard">
+                <div class="pImg"><img src="./img/1.webp" alt=""></div>
+                <div class="pBody">
+                    <div class="pTitle">ZenPods</div>
+                    <div class="pMeta">True Wireless • ANC</div>
+                    <div class="pPrice">₺2.199</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section card" style="padding: 16px;">
+        <h2>Yorumlar</h2>
+        <div class="reviews">
+            <div class="rev">
+                <div class="revTop">
+                    <div class="revName">Ayşe</div>
+                    <div class="revStart">★★★★★</div>
+                </div>
+                <div class="revText">Ses net, ANC metroda baya işe yarıyor. Pil de beklediğimden uzun gidiyor.</div>
+            </div>
+            <div class="rev">
+                <div class="revTop">
+                    <div class="revName">Mehmet</div>
+                    <div class="revStart">★★★★☆</div>
+                </div>
+                <div class="revText">Konfor iyi. İlk gün biraz sıkı geldi ama sonra alışıyorsun. Mikrofon gayet temiz.
+</div>
+            </div>
+            <div class="rev">
+                <div class="revTop">
+                    <div class="revName">Elif</div>
+                    <div class="revStart">★★★★☆</div>
+                </div>
+                <div class="revText">Fiyat/performans güzel. Mavi rengi çok hoş duruyor.
+</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

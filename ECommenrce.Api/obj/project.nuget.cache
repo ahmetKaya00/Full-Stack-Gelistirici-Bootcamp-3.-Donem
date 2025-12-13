@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BytwoPF/jZ0=",
+  "dgSpecHash": "yGGSu+khzRQ=",
   "success": true,
   "projectFilePath": "/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/ECommenrce.Api.csproj",
   "expectedPackageFiles": [
@@ -70,14 +70,19 @@
     "/Users/ahmetkaya/.nuget/packages/system.text.encoding.codepages/6.0.0/system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "/Users/ahmetkaya/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/Users/ahmetkaya/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
-    "/Users/ahmetkaya/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512"
+    "/Users/ahmetkaya/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512",
+    "/Users/ahmetkaya/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/ahmetkaya/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/ahmetkaya/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.22/microsoft.netcore.app.host.osx-arm64.8.0.22.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1603",
       "level": "Warning",
+      "message": "ECommenrce.Api depends on Microsoft.IdentityModel.Tokens (>= 8.0.4) but Microsoft.IdentityModel.Tokens 8.0.4 was not found. Microsoft.IdentityModel.Tokens 8.1.0 was resolved instead.",
+      "projectPath": "/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/ECommenrce.Api.csproj",
       "warningLevel": 1,
-      "message": "ECommenrce.Api, Microsoft.IdentityModel.Tokens (>= 8.0.4) öğesine bağımlı ancak Microsoft.IdentityModel.Tokens 8.0.4 bulunamadı. Yaklaşık bir en iyi eşleşme olan Microsoft.IdentityModel.Tokens 8.1.0 çözümlendi.",
+      "filePath": "/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/ECommenrce.Api.csproj",
       "libraryId": "Microsoft.IdentityModel.Tokens",
       "targetGraphs": [
         "net8.0"
