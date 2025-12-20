@@ -129,11 +129,6 @@
 /Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/ECommenrce.Api.MvcApplicationPartsAssemblyInfo.cache
 /Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/staticwebassets.build.json
 /Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/staticwebassets.development.json
-/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/staticwebassets/msbuild.ECommenrce.Api.Microsoft.AspNetCore.StaticWebAssets.props
-/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/staticwebassets/msbuild.build.ECommenrce.Api.props
-/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ECommenrce.Api.props
-/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ECommenrce.Api.props
-/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/staticwebassets.pack.json
 /Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/scopedcss/bundle/ECommenrce.Api.styles.css
 /Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/ECommenr.740B4061.Up2Date
 /Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/ECommenrce.Api.dll
@@ -141,3 +136,11 @@
 /Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/ECommenrce.Api.pdb
 /Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/ECommenrce.Api.genruntimeconfig.cache
 /Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/ref/ECommenrce.Api.dll
+/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/bin/Debug/net8.0/ECommenrce.Api.staticwebassets.endpoints.json
+/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/rpswa.dswa.cache.json
+/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/ECommenrce.Api.sourcelink.json
+/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/rjimswa.dswa.cache.json
+/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/staticwebassets.build.json.cache
+/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net8.0/staticwebassets.build.endpoints.json

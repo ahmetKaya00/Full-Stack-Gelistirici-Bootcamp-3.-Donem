@@ -1,7 +1,8 @@
+using Ecommenrce.Api.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Ecommenrce.Api.Models
+namespace Ecommenrce.Api.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
