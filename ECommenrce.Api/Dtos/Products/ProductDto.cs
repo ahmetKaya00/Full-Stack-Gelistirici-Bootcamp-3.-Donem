@@ -10,7 +10,7 @@ namespace Ecommenrce.Api.Dtos.Products
         public string? ImageUrl {get;set;}
         public string? Description {get;set;}
         public string CategoryName {get;set;} = default!;
-        public int SellerShopName {get;set;} = default!;
+        public string SellerShopName {get;set;} = default!;
 
     }
 }

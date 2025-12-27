@@ -168,3 +168,4 @@
 /Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net9.0/ECommenrce.Api.pdb
 /Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net9.0/ECommenrce.Api.genruntimeconfig.cache
 /Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/obj/Debug/net9.0/ref/ECommenrce.Api.dll
+/Users/ahmetkaya/Documents/GitHub/Full-Stack-Gelistirici-Bootcamp-3.-Donem/ECommenrce.Api/bin/Debug/net9.0/ECommenrce.Api.staticwebassets.runtime.json
